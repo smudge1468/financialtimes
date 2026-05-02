@@ -4,7 +4,7 @@ import { createClient } from "@base44/sdk";
 import crypto from "crypto";
 
 // --- Config ---
-const DISCORD_BOT_TOKEN = "MTUwMDIyNjgwNTIzNDEzOTE5Ng.GbKciZ.lE2Mei5DnLktW8G5acVFHGundwscRxDWilvmR8";
+const DISCORD_BOT_TOKEN = process.env.DISCORD_BOT_TOKEN;
 const GUILD_ID = "1500198344763641996";
 const REPORTER_ROLE_ID = "1500198344763641997";
 const BASE44_APP_ID = "69f657eef87bd972d6faeb58";
